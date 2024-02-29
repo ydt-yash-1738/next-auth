@@ -61,39 +61,43 @@ export default function RegisterForm() {
   };
 
   return (
-    <div className="grid place-items-center h-screen bg-cyan-800">
-      <div className="shadow-lg p-5 rounded-lg border-t-4 border-green-500 bg-white">
-        <h1 className="text-xl font-bold my-4">Register</h1>
+    <div className="bg-cover bg-center min-h-screen flex justify-center items-center" style={{backgroundImage: "url('/photos/2.jpg')" }}>
+      <div className="max-w-md w-full shadow-lg p-5 rounded-lg border-t-4 border-green-500 bg-white opacity-90">
+        <h1 className="text-xl md:text-2xl font-bold my-4">Register</h1>
 
-        <form onSubmit={handleSubmit} className="flex flex-col gap-3">
+        <form onSubmit={handleSubmit} className="flex flex-col gap-4">
           <input
             onChange={(e) => setName(e.target.value)}
             type="text"
             placeholder="Full Name"
+            className="px-3 py-2 rounded-md border text-sm"
           />
           <input
             onChange={(e) => setEmail(e.target.value)}
             type="text"
             placeholder="Email"
+            className="px-3 py-2 rounded-md border text-sm"
           />
           <input
             onChange={(e) => setPassword(e.target.value)}
             type="password"
             placeholder="Password"
+            className="px-3 py-2 rounded-md border text-sm"
           />
-          <button className="bg-cyan-600 text-white font-bold cursor-pointer px-6 py-2">
+          <button className="bg-cyan-600 text-white font-bold cursor-pointer px-6 py-2 text-sm">
             Register
           </button>
 
           {error && (
-            <div className="bg-red-500 text-white w-fit text-sm py-1 px-3 rounded-md mt-2">
+            <div className="bg-red-500 text-white text-sm py-1 px-3 rounded-md mt-2">
               {error}
             </div>
           )}
 
-          <Link className="text-sm mt-3 text-right" href={"/"}>
-            Already have an account? <span className="underline">Login</span>
+          <Link href={"/"} passHref>
+            <div className="text-sm text-right underline mt-3 cursor-pointer">Already have an account? Login</div>
           </Link>
+
         </form>
       </div>
     </div>
