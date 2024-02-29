@@ -23,7 +23,59 @@ export default function UserInfo() {
           >
             Log Out
           </button>
+          <div className="shadow-lg p-8 bg-zince-300/10 flex flex-col gap-2 my-6 rounded-lg opacity-80">
+          <h1 className="text-xl font-extrabold">Thank you so much for using our service!!</h1>
+          
+          <div className="opacity-100 text-bold underline">
+            
+            Let's connect <span className="font-extrabold">{/* Add profile info here */}</span>
+          </div>
+          <div className="opacity-100">
+            <a
+              href="https://www.linkedin.com/in/ydt1738/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-black font-extrabold hover:underline"
+            >
+              LinkedIn - Yashdev Tiwari
+            </a>
+          </div>
+          <div className="opacity-100">
+            <a
+              href="https://github.com/ydt-yash-1738"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-black font-extrabold hover:underline"
+            >
+              GitHub
+            </a>
+          </div>
+          <div className="opacity-100">
+            <a
+              href="https://ydt-yash-1738.github.io/Portfolio/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-black font-extrabold hover:underline"
+            >
+              Portfolio
+            </a>
+          </div>
+            <div className="opacity-100">
+              <a
+                href="https://mail.google.com/mail/?view=cm&to=yashdt50@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-black font-extrabold hover:underline"
+              >
+                Email
+              </a>
+            </div>
+
+          
         </div>
+        </div>
+        
+
       </div>
     </div>
   );
