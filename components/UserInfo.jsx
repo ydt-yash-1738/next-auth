@@ -8,7 +8,7 @@ export default function UserInfo() {
 
   return (
     <div className="relative">
-      <VideoBackground />
+      <VideoBackground preload />
       <div className="absolute inset-0 flex flex-col justify-center items-center">
         <div className="shadow-lg p-8 bg-zince-300/10 flex flex-col gap-2 my-6 bg-white rounded-lg opacity-60">
           <div className="opacity-100">
