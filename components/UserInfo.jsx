@@ -20,7 +20,7 @@ export default function UserInfo() {
         <div className="mt-6">
           <h1 className="text-lg md:text-xl font-bold">Thank you for using our service!</h1>
           <div className="font-bold underline mt-4">
-            Let's connect:
+            Let&apos;s connect:
           </div>
           <div className="mt-2">
             <a
