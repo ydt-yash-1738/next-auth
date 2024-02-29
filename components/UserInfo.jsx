@@ -28,7 +28,7 @@ export default function UserInfo() {
           
           <div className="opacity-100 text-bold underline">
             
-            Let's connect <span className="font-extrabold">{/* Add profile info here */}</span>
+            Let&#39;s connect <span className="font-extrabold"></span>
           </div>
           <div className="opacity-100">
             <a
