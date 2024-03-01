@@ -41,7 +41,7 @@ export default function LoginForm() {
         <form onSubmit={handleSubmit} className="flex flex-col gap-3">
           <input
             onChange={(e) => setEmail(e.target.value)}
-            type="text"
+            type="email"
             placeholder="Email"
             className="px-3 py-2 rounded-md border text-sm md:text-base"
           />
