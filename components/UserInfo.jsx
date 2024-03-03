@@ -54,7 +54,7 @@ export default function UserInfo() {
           </div>
           <div className="mt-2">
             <a
-              href="mailto:yashdt50@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=yashdt50@gmail.com&body=Body%20Here"
               className="text-black font-bold hover:underline text-sm md:text-base"
             >
               Email
